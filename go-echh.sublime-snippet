@@ -1,10 +1,9 @@
 <snippet>
 	<content><![CDATA[
-func {$1:func_name}(c *echo.Context) error {
-
-	{$2:content}
+func $1(c *echo.Context) error {
+	$2
 	return c.JSON(http.StatusOK, "$3")
-}		
+}
 ]]></content>
 	<tabTrigger>echh</tabTrigger>
 	<scope>source.go</scope>
