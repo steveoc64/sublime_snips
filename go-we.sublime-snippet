@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+if err := $1(); err != nil {
+	log.Fatal(err)
+}
+]]></content>
+	<tabTrigger>we</tabTrigger>
+	<scope>source.go</scope>
+</snippet>
