@@ -4,6 +4,6 @@ if err := $1(); err != nil {
 	log.Fatal(err)
 }
 ]]></content>
-	<tabTrigger>we</tabTrigger>
+	<tabTrigger>iff</tabTrigger>
 	<scope>source.go</scope>
 </snippet>
