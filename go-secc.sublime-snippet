@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+claim, err := securityCheck(c, "$1")
+if err != nil {
+	return c.String(http.StatusUnauthorized, err.Error())
+}
+]]></content>
+	<tabTrigger>secc</tabTrigger>
+	<scope>source.go</scope>
+</snippet>
