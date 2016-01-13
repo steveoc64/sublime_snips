@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[log.Println("$1", err.Error())]]></content>
+  <tabTrigger>lpe</tabTrigger>
+  <scope>source.go</scope>
+</snippet>
+
