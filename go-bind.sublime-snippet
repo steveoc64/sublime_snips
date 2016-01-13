@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$1 := &$2{}
+if err = c.Bind($1); err != nil {
+	return c.String(http.StatusBadRequest, err.Error())
+}
+]]></content>
+	<tabTrigger>bind</tabTrigger>
+	<scope>source.go</scope>
+</snippet>
