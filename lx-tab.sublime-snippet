@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+    <lx-tab heading="$1">
+      <div class="data-table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th> Table Header ....</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="data-table"
+                ng-click="__.go___(row)"
+                ng-repeat="row in __.__">
+                  <td><a>{{row.Col1}}</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </lx-tab>
+]]></content>
+	<tabTrigger>lxtab</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>
