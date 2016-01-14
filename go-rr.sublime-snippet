@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+for _idx, $1 := range $2 {
+	log.Println("Data", _idx, $1)
+}
+]]></content>
+	<tabTrigger>rr</tabTrigger>
+	<scope>source.go</scope> -->
+</snippet>
